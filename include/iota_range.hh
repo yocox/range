@@ -124,6 +124,7 @@ class iota_range_with_strid {
     T strid_;
 } ;
 
+template <typename T> iota_range<T> xrange(T e) { return iota_range<T>(0, e); }
 template <typename T> iota_range<T> xrange(T b, T e) { return iota_range<T>(b, e); }
 template <typename T> iota_range_with_strid<T> xrange(T b, T e, T s) { return iota_range_with_strid<T>(b, e, s); }
 
