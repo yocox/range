@@ -1,5 +1,5 @@
-#ifndef YOCO_CPPGM_GENERIC_RANGE_ITERATOR_RANGE_HH
-#define YOCO_CPPGM_GENERIC_RANGE_ITERATOR_RANGE_HH
+#ifndef YOCO_GENERIC_RANGE_ITERATOR_RANGE_HH
+#define YOCO_GENERIC_RANGE_ITERATOR_RANGE_HH
 
 #include <vector>
 #include "range_traits.hh"
@@ -65,5 +65,5 @@ auto make_range(T& c) -> iterator_range<typename T::iterator>
 
 } // namespace range
 
-#endif // YOCO_CPPGM_GENERIC_RANGE_ITERATOR_RANGE_HH
+#endif // YOCO_GENERIC_RANGE_ITERATOR_RANGE_HH
 

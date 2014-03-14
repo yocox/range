@@ -1,5 +1,5 @@
-#ifndef YOCO_CPPGM_GENERIC_RANGE_IOTA_RANGE_HH
-#define YOCO_CPPGM_GENERIC_RANGE_IOTA_RANGE_HH
+#ifndef YOCO_GENERIC_RANGE_IOTA_RANGE_HH
+#define YOCO_GENERIC_RANGE_IOTA_RANGE_HH
 
 #include <vector>
 #include "range_traits.hh"
@@ -130,6 +130,6 @@ template <typename T> iota_range_with_strid<T> xrange(T b, T e, T s) { return io
 
 } // namespace range
 
-#endif // YOCO_CPPGM_GENERIC_RANGE_IOTA_RANGE_HH
+#endif // YOCO_GENERIC_RANGE_IOTA_RANGE_HH
 
 
