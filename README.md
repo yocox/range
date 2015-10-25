@@ -3,7 +3,7 @@ C++ range library
 
 Let you iterate integer range in python style.
 
-```
+```c++
 #include <iostream>
 
 #include "include/range.hh"
